@@ -7,7 +7,7 @@ from __future__ import division, print_function, absolute_import
 
 import numpy
 import sklearn
-from sklearn.tree.tree import DecisionTreeClassifier
+from sklearn.tree import DecisionTreeClassifier
 
 from .commonutils import computeKnnIndicesOfSameClass, check_uniform_label
 from .supplementaryclassifiers import AbstractBoostingClassifier
