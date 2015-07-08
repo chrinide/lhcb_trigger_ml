@@ -14,7 +14,8 @@ from numpy.random.mtrand import RandomState
 from scipy.special import expit
 import sklearn.cross_validation
 from sklearn.utils.validation import check_arrays
-from sklearn.neighbors.unsupervised import NearestNeighbors
+#from sklearn.neighbors.unsupervised import NearestNeighbors
+from sklearn.neighbors import NearestNeighbors
 
 __author__ = "Alex Rogozhnikov"
 
